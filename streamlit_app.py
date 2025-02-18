@@ -39,7 +39,7 @@ if ingredients_list:
     #st.text(ingredients_list)
     ingredients_string = ''
     for fruit_chosen in ingredients_list:
-        ingredients_string += 
+        ingredients_string += fruit_chosen
         import requests
         smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
         st.text(smoothiefroot_response)
